@@ -19,6 +19,8 @@ LOCAL_AAPT_FLAGS := \
     --extra-packages com.android.phone.common \
     --extra-packages android.support.v7.cardview
 
+LOCAL_AAPT_INCLUDE_ALL_RESOURCES := true
+
 LOCAL_JAVA_LIBRARIES := telephony-common voip-common
 LOCAL_STATIC_JAVA_LIBRARIES := \
     com.android.vcard \
